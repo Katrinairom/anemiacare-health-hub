@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+# AnemiaCare: Empowering Indian Women’s Health 🩸
 
-## Project info
+**AnemiaCare** is a specialized health-tech platform designed to address the high prevalence of anemia among Indian women. By combining intuitive tracking, personalized nutrition, and medical AI insights, we aim to make hemoglobin management accessible and actionable.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+##  Project Overview
 
-## How can I edit this code?
+**URL**: [https://lovable.dev/projects/anemiacare](https://www.google.com/search?q=https://lovable.dev/projects/anemiacare)
 
-There are several ways of editing your application.
+### The Problem
 
-**Use Lovable**
+Over 50% of women in India suffer from some form of anemia. Traditional tracking is often manual, confusing, or inaccessible.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Our Solution
 
-Changes made via Lovable will be committed automatically to this repo.
+A "mobile-first" web experience that allows users to:
 
-**Use your preferred IDE**
+  * **Track Hemoglobin (Hb) Levels**: Log blood test results and visualize trends over time.
+  * **Personalized Diet Plans**: Get meal suggestions focused on Indian ingredients (rich in Iron, Vitamin B12, and Folic Acid).
+  * **Symptom Checker**: A simple UI to monitor fatigue, dizziness, and other indicators.
+  * **Regional Language Support**: Designed to be inclusive for users across diverse Indian demographics.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+-----
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+##  Tech Stack
 
-Follow these steps:
+This project is built with high-performance frontend technologies to ensure an "app-like" experience on mobile browsers:
+
+  * **Vite & React**: For a fast, reactive user interface.
+  * **TypeScript**: Ensuring type safety and robust code logic.
+  * **shadcn/ui**: For polished, accessible, and consistent UI components.
+  * **Tailwind CSS**: For a fully responsive, mobile-first design.
+  * **Lucide React**: For intuitive iconography.
+
+-----
+
+##  Key Features
+
+### 1\. Hb Trend Visualization
+
+Interactive charts that show your hemoglobin progress, helping you understand how lifestyle changes impact your health.
+
+### 2\. The "Desi" Nutrition Guide
+
+Diet plans that don't just say "eat spinach." We suggest:
+
+  * **Iron-rich recipes**: Poha with sprouts, Jaggery (Gur) and Chana, Beetroot Thoran, etc.
+  * **Absorption Tips**: Guidance on pairing Vitamin C with meals to maximize iron uptake.
+
+### 3\. Smart Health Alerts
+
+Notifications and reminders for periodic check-ups and supplement consistency.
+
+-----
+
+##  Development Setup
+
+If you want to contribute to AnemiaCare or run it locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd anemiacare
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+-----
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deployment & Domains
 
-**Use GitHub Codespaces**
+To publish the latest version:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1.  Open the project in [Lovable](https://www.google.com/search?q=https://lovable.dev/projects/anemiacare).
+2.  Click **Share** \> **Publish**.
+3.  To link a custom domain (e.g., `www.anemiacare.in`), go to **Settings** \> **Domains**.
 
-## What technologies are used for this project?
+-----
 
-This project is built with:
+### Future Roadmap
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+  * **AI Integration**: Using computer vision to scan and interpret physical lab reports.
+  * **Consultation Portal**: Connecting users with nutritionists and doctors.
 
-## How can I deploy this project?
+-----
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+*Built with ❤️ for a Healthier India.*
