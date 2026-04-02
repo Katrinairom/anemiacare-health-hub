@@ -4,7 +4,7 @@
 
 ##  Project Overview
 
-**URL**: [https://anemia-care-chi.vercel.app/] ((https://anemia-care-chi.vercel.app/))
+**URL**: [https://anemia-care-chi.vercel.app/] 
 
 ### The Problem
 
