@@ -142,7 +142,7 @@ export default function Quiz() {
           {/* Step 1 - Menstrual */}
           {step === 1 && (
             <div className="space-y-3">
-              {['PCOS / PCOD', 'Irregular periods', 'Currently pregnant', 'Post-menopausal'].map(c => (
+              {['Regular Periods', 'PCOS / PCOD', 'Irregular periods', 'Currently pregnant', 'Post-menopausal'].map(c => (
                 <CheckboxItem key={c} label={c} checked={data.conditions.includes(c)} onChange={() => toggleArray('conditions', c)} />
               ))}
             </div>
