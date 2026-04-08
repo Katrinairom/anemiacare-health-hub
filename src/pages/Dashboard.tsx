@@ -108,7 +108,30 @@ export default function Dashboard() {
   const { user } = useAuth();
   const [readings, setReadings] = useState<HbReading[]>([]);
   const [loading, setLoading] = useState(true);
-  const name = user?.user_metadata?.name || 'there';
+  const [displayName, setDisplayName] = useState(user?.user_metadata?.name || 'there');
+
+  // Fetch display name from profile
+  useEffect(() => {
+    async function fetchName() {
+      if (isSupabaseConfigured() && user) {
+        const { data } = await supabase
+          .from('user_profiles')
+          .select('name')
+          .eq('user_id', user.id)
+          .single();
+        if (data?.name) setDisplayName(data.name);
+      } else {
+        const saved = localStorage.getItem('anemiacare_demo_profile');
+        if (saved) {
+          const p = JSON.parse(saved);
+          if (p.name) setDisplayName(p.name);
+        }
+      }
+    }
+    fetchName();
+  }, [user]);
+
+  const name = displayName;
 
   // Hb update state
   const [hbInput, setHbInput] = useState('');
